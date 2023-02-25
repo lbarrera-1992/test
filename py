@@ -1,7 +1,7 @@
 pip install openai
 
 import openai
-openai.api_key = "YOUR_API_KEY"
+openai.api_key = "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"
 
 def generate_response(prompt):
     response = openai.Completion.create(
